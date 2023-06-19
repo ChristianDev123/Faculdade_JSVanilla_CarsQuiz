@@ -41,7 +41,7 @@ function nextAsk(){
         updateScreen();
     }
     else{
-        location.href = `src/views/ShowResult.html?hits=${correctCounter}`
+        location.href = `./ShowResult.html?hits=${correctCounter}`
     }
 }
 

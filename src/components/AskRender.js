@@ -1,3 +1,3 @@
 export default function AskRender({ask, display}){
-    display.innerHTML += `<p>${ask}</p>`
+    display.innerHTML += `<p class="ask">${ask}</p>`
 }
